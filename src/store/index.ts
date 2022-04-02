@@ -8,6 +8,6 @@ const appReducer = {
 }
 const store = createStore(
   combineReducers(appReducer),
-  composeWithDevTools(applyMiddleware(thunkMiddleware))
+  process.env.NODE_ENV === 'production' ? applyMiddleware(thunkMiddleware): composeWithDevTools(applyMiddleware(thunkMiddleware))
 )
 export default  store;

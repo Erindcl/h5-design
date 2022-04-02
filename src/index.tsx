@@ -6,7 +6,7 @@ import store from './store';
 import { ConfigProvider } from 'antd';
 import zhCN from 'antd/lib/locale/zh_CN';
 import './styles/theme.less';
-import './styles/index.scss';
+import './styles/common.scss';
 
 ReactDOM.render(
   <Provider store={store}>

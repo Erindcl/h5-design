@@ -1,0 +1,56 @@
+.home-page {
+  .home-page-side {
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px 40px;
+    .add-btn-wrapper {
+      padding: 20px 0px 40px;
+      display: flex;
+      justify-content: center;
+    }
+    .add-btn {
+      width: 100%;
+      height: 40px;
+    }
+    .menu-item {
+      width: 100%;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      padding: 0px 12px;
+      cursor: pointer;
+      font-size: 14px;
+      &.active {
+        color: #3A72FF;
+        background: #F4F7FF;
+      }
+    }
+    .menu-text {
+      margin-left: 8px;
+    }
+  }
+  .home-page-main {
+    background-color: #fafafa;
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    .page-title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    .ant-empty-normal {
+      height: 300px;
+      padding-top: 130px;
+      background-color: #fff;
+      margin: 0px;
+    }
+    .pagination-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 20px;
+    }
+  }
+}
