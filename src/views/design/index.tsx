@@ -3,6 +3,8 @@ import Header from '../../layout/header';
 import { useLocation } from 'react-router-dom';
 import { Button } from 'antd';
 import DesignSider from './components/sider';
+import EditorPanel from './components/panel';
+import EditorSetting from './components/setting';
 import './index.scss';
 
 const operateBtns = [
@@ -41,8 +43,12 @@ const DesignPage: React.FC = () => {
           <DesignSider />
         </div>
         <div className="design-right">
-          <div className="editor-panel"></div>
-          <div className="editor-config"></div>
+          <div className="editor-panel">
+            <EditorPanel />
+          </div>
+          <div className="editor-setting">
+            <EditorSetting />
+          </div>
         </div>
       </div>
     </div>

@@ -29,15 +29,18 @@
     align-items: center;
     height: 100%;
     background-color: #fafafa;
+    overflow: hidden;
     .editor-panel {
       height: 100%;
       flex: 1;
       flex-basis: 600px;
     }
-    .editor-config {
+    .editor-setting {
       width: 300px;
       height: 100%;
       overflow-y: auto;
+      background-color: #fff;
+      box-shadow: 0 0 6px 0 #e2e2e2;
     }
   }
 }

@@ -1,0 +1,20 @@
+.editor-setting-comp {
+  padding: 20px;
+  .setting-title {
+    font-size: 14px;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .setting-empty {
+    padding: 60px 0px;
+    .empty-description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+  }
+}
