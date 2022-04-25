@@ -1,0 +1,59 @@
+.design-sider {
+  height: 100%;
+  .ant-tabs {
+    height: 100%;
+  }
+  .ant-tabs > .ant-tabs-nav {
+    height: 100%;
+    overflow: auto;
+  }
+  .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list {
+    padding-top: 20px;
+    background: #eee;
+  }
+  .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+    padding: 20px 16px;
+    border: 0;
+    background-color: #eee;
+  }
+  .ant-tabs-card.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab-active {
+    background-color: #fff;
+  }
+  .ant-tabs-content-holder {
+    height: 100%;
+    overflow-y: auto;
+  }
+  .ant-tabs-left > .ant-tabs-content-holder > .ant-tabs-content > .ant-tabs-tabpane {
+    padding: 20px;
+  }
+  .card-title {
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .comp-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -20px;
+  }
+  .comp-item {
+    width: 45%;
+    margin-top: 20px;
+    height: 80px;
+    border-radius: 2px;
+    border: 1px solid #DFE1E5;
+    text-align: center;
+    line-height: 80px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover {
+      border-color: #3A72FF;
+      color: #3A72FF;
+    }
+  }
+}
